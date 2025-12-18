@@ -9,7 +9,7 @@ const SLIDES = [
     description: "Une fusion parfaite entre traditions ancestrales et techniques modernes pour une expérience sensorielle unique à Djerba.",
     image: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1920",
   },
-  {
+  { 
     id: 1,
     title: "Soins d'Exception",
     subtitle: "Rituels & Bien-être",
