@@ -20,10 +20,10 @@ export default function Gallery() {
       size: 'small'
     },
     {
-      url: 'https://images.pexels.com/photos/3993324/pexels-photo-3993324.jpeg?auto=compress&cs=tinysrgb&w=800',
+      url: 'https://i.ibb.co/gbJFNFg7/Whats-App-Image-2025-12-18-at-22-49-23-2.jpg',
       title: 'Esthétique',
       category: 'Beauté',
-      size: 'tall'
+      size: 'large'
     },
     {
       url: 'https://i.ibb.co/7tqdy716/Whats-App-Image-2025-12-19-at-16-01-13.jpg',
@@ -48,12 +48,6 @@ export default function Gallery() {
       title: 'Coiffure',
       category: 'Style',
       size: 'large'
-    },
-    {
-      url: 'https://images.pexels.com/photos/3326362/pexels-photo-3326362.jpeg?auto=compress&cs=tinysrgb&w=800',
-      title: 'Spa',
-      category: 'Wellness',
-      size: 'tall'
     }
   ];
 
