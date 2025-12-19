@@ -61,7 +61,7 @@ export default function Contact() {
               <a href="#" className="w-12 h-12 rounded-full border border-[#F5F1EB]/20 flex items-center justify-center hover:bg-[#C9B896] hover:border-[#C9B896] hover:text-[#4A5947] transition-all duration-300">
                 <Instagram size={20} />
               </a>
-              <a href="#" className="w-12 h-12 rounded-full border border-[#F5F1EB]/20 flex items-center justify-center hover:bg-[#C9B896] hover:border-[#C9B896] hover:text-[#4A5947] transition-all duration-300">
+              <a href="https://www.facebook.com/profile.php?id=61578851706576" className="w-12 h-12 rounded-full border border-[#F5F1EB]/20 flex items-center justify-center hover:bg-[#C9B896] hover:border-[#C9B896] hover:text-[#4A5947] transition-all duration-300">
                 <Facebook size={20} />
               </a>
               <a href="#" className="w-12 h-12 rounded-full border border-[#F5F1EB]/20 flex items-center justify-center hover:bg-[#C9B896] hover:border-[#C9B896] hover:text-[#4A5947] transition-all duration-300">
