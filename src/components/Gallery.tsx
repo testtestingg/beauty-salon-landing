@@ -26,13 +26,25 @@ export default function Gallery() {
       size: 'tall'
     },
     {
-      url: 'https://images.pexels.com/photos/3997376/pexels-photo-3997376.jpeg?auto=compress&cs=tinysrgb&w=800',
+      url: 'https://i.ibb.co/7tqdy716/Whats-App-Image-2025-12-19-at-16-01-13.jpg',
       title: 'Massage',
       category: 'Détente',
       size: 'small'
     },
     {
-      url: 'https://images.pexels.com/photos/3764013/pexels-photo-3764013.jpeg?auto=compress&cs=tinysrgb&w=800',
+      url: 'https://i.ibb.co/G4B56FJK/Whats-App-Image-2025-12-18-at-22-49-23.jpg',
+      title: 'Coiffure',
+      category: 'Style',
+      size: 'tall'
+    },
+        {
+      url: 'https://i.ibb.co/Y7Z4jJQC/Whats-App-Image-2025-12-19-at-16-01-14.jpg',
+      title: 'Coiffure',
+      category: 'Style',
+      size: 'small'
+    },
+            {
+      url: 'https://i.ibb.co/1fNC7f9R/Whats-App-Image-2025-12-18-at-22-49-23-1.jpg',
       title: 'Coiffure',
       category: 'Style',
       size: 'large'
