@@ -8,7 +8,7 @@ export default function Gallery() {
 
   const images = [
     {
-      url: 'https://images.pexels.com/photos/3997392/pexels-photo-3997392.jpeg?auto=compress&cs=tinysrgb&w=800',
+      url: 'https://i.ibb.co/nNjhD1hL/visage-rannoucha-370x370-1.webp',
       title: 'Soins Visage',
       category: 'Rituel',
       size: 'large'
