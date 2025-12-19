@@ -36,35 +36,45 @@ export default function Contact() {
             </div>
 
             <div className="grid md:grid-cols-2 gap-8">
-              <div className="bg-[#F5F1EB]/5 p-8 backdrop-blur-sm border border-[#F5F1EB]/10 hover:bg-[#F5F1EB]/10 transition-colors duration-300">
-                <MapPin className="text-[#C9B896] mb-4" size={28} />
-                <h3 className="text-xl font-serif mb-2">Notre Adresse</h3>
-                <p className="text-[#F5F1EB]/60 font-light text-sm leading-relaxed">
-                  Zone Touristique<br/>
-                  4180 Djerba, Tunisie
-                </p>
+              {/* Map Container - Replaced the location text with map */}
+              <div className="bg-[#F5F1EB]/5 p-2 backdrop-blur-sm border border-[#F5F1EB]/10 hover:bg-[#F5F1EB]/10 transition-colors duration-300">
+                <MapPin className="text-[#C9B896] mb-2 ml-2" size={28} />
+                <h3 className="text-xl font-serif mb-2 px-2">Notre Adresse</h3>
+                <div className="overflow-hidden rounded-md">
+                  <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3315.1006304076395!2d10.992227399999999!3d33.80971609999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13aa97e503d57b11%3A0x595177fba12f7054!2sDJERBA%20BEAUTY!5e0!3m2!1sen!2stn!4v1766182122126!5m2!1sen!2stn" 
+                    width="100%" 
+                    height="250" 
+                    style={{border:0}} 
+                    allowFullScreen="" 
+                    loading="lazy" 
+                    referrerPolicy="no-referrer-when-downgrade"
+                    title="DJERBA BEAUTY Location Map"
+                  ></iframe>
+                </div>
               </div>
+              
               <div className="bg-[#F5F1EB]/5 p-8 backdrop-blur-sm border border-[#F5F1EB]/10 hover:bg-[#F5F1EB]/10 transition-colors duration-300">
                 <Phone className="text-[#C9B896] mb-4" size={28} />
                 <h3 className="text-xl font-serif mb-2">Contact Direct</h3>
                 <p className="text-[#F5F1EB]/60 font-light text-sm leading-relaxed mb-2">
-                  +216 XX XXX XXX
+                  +216 94 414 586
                 </p>
                 <p className="text-[#F5F1EB]/60 font-light text-sm">
-                  contact@salon-djerba.com
+                  Djerbaluxebeauty@gmail.com
                 </p>
               </div>
             </div>
 
             {/* Social Links */}
             <div className="flex gap-6 pt-4">
-              <a href="#" className="w-12 h-12 rounded-full border border-[#F5F1EB]/20 flex items-center justify-center hover:bg-[#C9B896] hover:border-[#C9B896] hover:text-[#4A5947] transition-all duration-300">
+              <a href="https://www.instagram.com/djerba_luxe_beauty/" className="w-12 h-12 rounded-full border border-[#F5F1EB]/20 flex items-center justify-center hover:bg-[#C9B896] hover:border-[#C9B896] hover:text-[#4A5947] transition-all duration-300">
                 <Instagram size={20} />
               </a>
               <a href="https://www.facebook.com/profile.php?id=61578851706576" className="w-12 h-12 rounded-full border border-[#F5F1EB]/20 flex items-center justify-center hover:bg-[#C9B896] hover:border-[#C9B896] hover:text-[#4A5947] transition-all duration-300">
                 <Facebook size={20} />
               </a>
-              <a href="#" className="w-12 h-12 rounded-full border border-[#F5F1EB]/20 flex items-center justify-center hover:bg-[#C9B896] hover:border-[#C9B896] hover:text-[#4A5947] transition-all duration-300">
+              <a href="Djerbaluxebeauty@gmail.com" className="w-12 h-12 rounded-full border border-[#F5F1EB]/20 flex items-center justify-center hover:bg-[#C9B896] hover:border-[#C9B896] hover:text-[#4A5947] transition-all duration-300">
                 <Mail size={20} />
               </a>
             </div>
