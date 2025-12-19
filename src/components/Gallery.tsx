@@ -14,7 +14,7 @@ export default function Gallery() {
       size: 'large'
     },
     {
-      url: 'https://images.pexels.com/photos/3997987/pexels-photo-3997987.jpeg?auto=compress&cs=tinysrgb&w=800',
+      url: 'https://i.ibb.co/Kct2hXM0/16905987955aaa260c35b3503f64c8037d8291fda4-thumbnail-405x552-f680bc01-5b7c-491f-beed-81e0bcfc315d.jpg',
       title: 'Manucure',
       category: 'Mains',
       size: 'small'
